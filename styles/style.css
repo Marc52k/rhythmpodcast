@@ -1,0 +1,89 @@
+
+body {
+    background: hsl(20, 1%, 46%);
+    color: rgb(0, 0, 0);
+    font-family: 'Copperplate', monospace,Arial, Helvetica, sans-serif ;
+}
+nav{
+    display:flex;
+    justify-content:space-around;     
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:1rem 2em;
+    border:solid; color: black;
+    background-color: rgb(218, 206, 206); 
+}
+.mini{
+    width: 40%;
+    height: auto;
+}
+.titel{
+    background-color: lightgrey;
+    padding:1em 2rem
+}
+
+.container{
+    background-color: rgb(79, 79, 79);
+    padding: 1rem 2em;
+}
+a:hover { color: rgb(255, 0, 0);    
+}
+main{
+    background: hsl(20, 1%, 46%);
+    padding: 1rem 2em;
+    border: solid; color: black; 
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    border: solid; color: black;
+    padding: 2rem 2em
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(79, 79, 79);
+    padding: 1rem 1em;
+}
+a{
+    color: rgb(0, 0, 0);
+    transition: color 0.5s ease 0.3s;
+    font-size: x-large;
+}
+li{
+    display: inline; block-size: 5px;
+    background-color: darkgray;
+    border:solid; color: black;
+    padding: 1rem 2em;
+}
+
+a img {
+    display: inline-block;
+    transition: 0.5 ease;
+}
+a img:hover{
+    transform: scale(1.3);
+}
+a:hover { color: rgb(255, 0, 0);  
+    cursor: pointer;
+}
+ol{
+    display: flex;
+    justify-content: space-between;  
+    padding: 2rem 2em;
+    background-color: rgb(73, 74, 74); 
+}
+h1{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
