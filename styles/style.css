@@ -42,8 +42,6 @@ p{
     align-items: center;
     font-size: large;
 }
-
-
 article{
     display: flex;
     justify-content: space-between;
@@ -76,10 +74,9 @@ li{
     background-color: darkgray;
     padding: 1rem 2em;
 }
-
 a img {
     display: inline-block;
-    transition: 0.5 ease;
+    
 }
 a img:hover{
     transform: scale(1.1);
